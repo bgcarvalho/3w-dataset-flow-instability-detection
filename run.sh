@@ -45,7 +45,7 @@ GRID_SEARCH=0
 mkdir $FOLDER
 
 # this takes about 15 minutes in my machine
-$PYTHON experiments.py csv2hdf --path="3w_dataset/"
+$PYTHON experiments.py csv2hdf --path="3w_dataset/data/"
 
 # this goes fast (a few seconds)
 $PYTHON experiments.py cleandataseth5
