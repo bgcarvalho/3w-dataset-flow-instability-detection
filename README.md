@@ -4,14 +4,14 @@ Machine learning applied to Flow Instability problem from the 3W dataset.
 
 ## Requirements
 
-- Python3
-- pip
+- Python >= 3.8
+- pip (this will try to install Cython and you must have a C compiler)
 - virtualenv
 - 7zip
 
 ## Install
 
-Clone the repository:
+Clone this repository:
 
 `git clone https://github.com/bgcarvalho/3w-dataset-flow-instability-detection.git`
 
@@ -31,7 +31,7 @@ creates a virtual environment and installs dependencies.
 Set algorithm parameters (window size, step, etc) in the main function,
 and then run the following command:
 
-`./venv/bin/python3 experiment.py`
+`./run.sh`
 
 ## License
 
