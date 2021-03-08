@@ -1,4 +1,11 @@
 python-dateutil
 tqdm
 sklearn
-tsfresh
+cython
+humanize
+pandas
+fire
+h5py
+tabulate
+openpyxl
+psutil
